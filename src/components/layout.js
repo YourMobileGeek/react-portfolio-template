@@ -6,6 +6,8 @@
  */
 
 import React, { useEffect, useState } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "./Navbar"
 import "../styles/mains.scss"
 

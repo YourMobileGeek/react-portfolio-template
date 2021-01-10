@@ -6,32 +6,38 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
+//Font Awesome Imports
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+// import { faGithubAlt, faInstagram, faTwitter, faLinkedinIn, faDribbble, faBehance } from '@fortawesome/free-brands-svg-icons';
+
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.svg"
+import behanceIcon from "./images/behance.svg"
+import twitterIcon from "./images/twitter.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "ariana d.",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Creative Developer ",
     //Line 2 For Header
-    "products, brands,",
+    "Designer",
     //Line 3 For Header
-    "and experience",
+    "Music.",
   ],
   //   Header Paragraph
   headerParagraph:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "hello@yourmobilegeek.tech",
 
   // End Header Details -----------------------
 
@@ -184,22 +190,31 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  // contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+    { img: githubIcon, 
+      url: "https://github.com/yourmobilegeek" 
     },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+    { img: twitterIcon, 
+      url: "https://twitter.com/yourmobilegeek" 
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/yourmobilegeek",
     },
+    {
+      img: linkedinIcon,
+      url: "https://www.linkedin.com/in/arianamdavis/",
+    },
+    {
+      img: dribbbleIcon,
+      url: "https://dribbble.com/yourmobilegeek",
+    },
+    {
+      img: behanceIcon,
+      url: "https://www.behance.net/ArianaDavis",
+    }    
   ],
 
   // End Contact Section ---------------
